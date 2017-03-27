@@ -150,3 +150,11 @@ body {
 	font-size: 1.2rem;
 	margin-top: 50px
 }
+.demo_list li {
+	margin-bottom: 0.5rem;
+}
+.demo_list a {
+	text-decoration: underline;
+	font-size: 1rem;
+	color:#444;
+}
