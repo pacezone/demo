@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <!-- 宽度=设备宽度，禁止缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--优先选用chrome打开-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!-- 全屏显示 -->
+    <meta content="yes" name="apple-touch-fullscreen">
+    <!-- 控制状态栏显示样式 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<title>首页</title>
+
+</head>
+<body>
+    <div class="page_wrap">
+		<div class="nav_wrap">
+        <div class="nav clearfix">
+            <dl class="nav_logo clearfix">
+                <dt><img src="image/logo.png"></dt>
+                <dd>
+                    <span>大海贼时代</span>
+                    <em>找到传说中的ONE PIECE</em>
+                </dd>
+            </dl>
+             <div class="nav_bar">
+                <div class="search clearfix">
+                    <i class="min_nav" id="minNavBtn">
+                        <img src="image/minNav.png">
+                    </i> 
+                    <a href="javascript:;" class="language">EN</a> 
+                    <i class="min_search" id="minSearchBtn"><img src="image/minSearch.png"></i>  
+                    <div class="search_area_wrap" id="minSearch">
+                        <form class="search_area">
+                            <input type="search" name="" value="请输入关键词"/>
+                            <button>搜索</button>
+                        </form>
+                    </div>                                    
+                </div>
+                <ul class="max_nav_list clearfix" id="navList">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">关于我们</a>
+                        <p class="sort_nav" id="sortNav">
+                            <a href="javascript:;">路飞致辞</a>
+                            <a href="javascript:;">故事简介</a>
+                            <a href="javascript:;">故事理念</a>
+                            <a href="javascript:;">打败boss</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">团队成员</a>
+                    </li>
+                    <li class="current_nav">
+                        <a href="javascript:;">我们的故事</a>
+                        <p class="sort_nav" id="sortNav">
+                            <a href="javascript:;">地理设定</a>
+                            <a href="javascript:;">世界政府</a>
+                            <a href="javascript:;">历史本文</a>
+                            <a href="javascript:;">其他</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">尾田荣一郎</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">故事动态</a>
+                        <p class="sort_nav" id="sortNav">
+                            <a href="javascript:;">故事资讯</a>
+                            <a href="javascript:;">进度动态</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="javascript:;">联系我们</a>
+                        <p class="sort_nav" id="sortNav">
+                            <a href="javascript:;">未来计划书</a>
+                            <a href="javascript:;">诚聘团员</a>
+                            <a href="javascript:;">联系方式</a>
+                        </p>
+                    </li>
+                </ul>
+
+                <ul class="min_nav_list" id="minNav">
+                    <li class="min_current_nav">
+                        <a href="index.html">首页<span></span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">关于我们<i id="foldBtn"><img src="image/unfold.png"></i></a>
+                        <div class="min_sort_nav" id="minSort">
+                            <p>
+                                <i></i><a href="javascript:;">路飞致辞</a>
+                            </p>
+                            <p>
+                                <i></i><a href="introduction.html">故事简介</a>
+                            </p>
+                            <p>
+                                <i></i><a href="philosophy.html">故事理念</a>
+                            </p>
+                            <p>
+                                <i></i><a href="achievement.html">打败boss</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        
+                        <a href="team.html">团队成员<span></span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">我们的故事<i id="foldBtn"><img src="image/unfold.png"></i></a>
+                        <div class="min_sort_nav" id="minSort">
+                            <p>
+                                <i></i><a href="project.html">地理设定</a>
+                            </p>
+                            <p>
+                                <i></i><a href="project.html">世界政府</a>
+                            </p>
+                            <p>
+                                <i></i><a href="project.html">历史本文</a>
+                            </p>
+                            <p>
+                                <i></i><a href="project.html">其他</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="advantage.html">尾田荣一郎<span></span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">故事动态<i id="foldBtn"><img src="image/unfold.png"></i></a>
+                        <div class="min_sort_nav" id="minSort">
+                            <p>
+                                <i></i><a href="information.html">故事资讯</a>
+                            </p>
+                            <p>
+                                <i></i><a href="companyGallery.html">进度动态</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">联系我们<i id="foldBtn"><img src="image/unfold.png"></i></a>
+                        <div class="min_sort_nav" id="minSort">
+                            <p>
+                                <i></i><a href="plan.html">未来计划书</a>
+                            </p>
+                            <p>
+                                <i></i><a href="JoinUs.html">诚聘团员</a>
+                            </p>
+                            <p>
+                                <i></i><a href="contact.html">联系方式</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav END -->
+    <div class="banner_wrap" id="banner">
+        <div class="max_banner" id="bannerSlide">
+            <a href="javascript:;">
+                <picture>
+                    <source srcset="image/minbanner2.jpg"  media="(max-width: 768px)">
+                    <source srcset="image/banner2.jpg">       
+                    <img srcset="image/banner2.jpg">
+                </picture>
+            </a>
+            <a href="javascript:;">
+                <picture>
+                    <source srcset="image/minbanner3.jpg"  media="(max-width: 768px)">
+                    <source srcset="image/banner3.jpg">       
+                    <img srcset="image/banner3.jpg">
+                </picture>
+            </a>
+            <a href="javascript:;">
+                <picture>
+                    <source srcset="image/minbanner4.jpg"  media="(max-width: 768px)">
+                    <source srcset="image/banner4.jpg">       
+                    <img srcset="image/banner4.jpg">
+                </picture>
+            </a>
+            <a href="javascript:;">
+                <picture>
+                    <source srcset="image/minbanner5.jpg"  media="(max-width: 768px)">
+                    <source srcset="image/banner5.jpg">       
+                    <img srcset="image/banner5.jpg">
+                </picture>
+            </a>
+            <a href="javascript:;">
+                <picture>
+                    <source srcset="image/minbanner6.jpg"  media="(max-width: 768px)">
+                    <source srcset="image/banner6.jpg">       
+                    <img srcset="image/banner6.jpg">
+                </picture>
+            </a>
+           
+        </div>
+        <ul class="banner_arrow">
+            <li class="arrow_left" id="pre">
+                <img src="image/arrowL.png">
+            </li>
+            <li class="arrow_right" id="next">
+                <img src="image/arrowR.png">
+            </li>
+        </ul>
+    </div>
+    <!-- banner END -->
+    <div class="content_wrap">
+        <div class="content">
+            <div class="information_company">
+                <div class="information_company_title">
+                    <div class="information_company_list_slogan">
+                    <h1>人物<span>信息</span></h1>
+                    <p></p>
+                    <i><img src="image/jionIcon.png"></i>
+                    </div>
+                </div>
+                
+                
+                <div class="brand_gallery_wrap">
+                	<div class="article_gallery clearfix">
+                		<div class="article_abstract_wrap">
+                            <a href="javascript:;">
+                            <h4>蒙其·D·路飞</h4>
+                            <em><img src="image/lufei.jpg"></em>   
+                            <b>草帽海贼团船长</b>
+                            <p>
+                            由于他的标志性特征是一顶草帽，因此常被直接称呼为“草帽”。梦想是找到传说中的ONE PIECE，成为海贼王。性格积极乐观，爱憎分明且十分重视伙伴，对任何危险的事物都超感兴趣。
+                            </p>
+                            </a>
+                        </div>
+                       <div class="article_abstract_wrap">
+                            <a href="javascript:;">
+                            <h4>蒙其·D·路飞</h4>
+                            <em><img src="image/lufei.jpg"></em>   
+                            <b>草帽海贼团船长</b>
+                            <p>
+                            由于他的标志性特征是一顶草帽，因此常被直接称呼为“草帽”。梦想是找到传说中的ONE PIECE，成为海贼王。性格积极乐观，爱憎分明且十分重视伙伴，对任何危险的事物都超感兴趣。
+                            </p>
+                            </a>
+                        </div>
+                        <div class="article_abstract_wrap">
+                            <a href="javascript:;">
+                            <h4>蒙其·D·路飞</h4>
+                            <em><img src="image/lufei.jpg"></em>   
+                            <b>草帽海贼团船长</b>
+                            <p>
+                            由于他的标志性特征是一顶草帽，因此常被直接称呼为“草帽”。梦想是找到传说中的ONE PIECE，成为海贼王。性格积极乐观，爱憎分明且十分重视伙伴，对任何危险的事物都超感兴趣。
+                            </p>
+                            </a>
+                        </div>
+                	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- content END -->
+    <div class="footer_wrap">
+        <div class="footer">
+            <div class="footer_info clearfix">
+                <ul class="footer_info_nav clearfix">
+                    <li><a href="index.html">网站首页</a><span>&#47</span></li>
+                    <li><a href="javascript:;">关于我们</a><span>&#47</span></li>
+                    <li><a href="javascript:;">团队成员</a><span>&#47</span></li>
+                    <li><a href="javascript:;">我们的故事</a><span>&#47</span></li>
+                    <li><a href="javascript:;">尾田荣一郎</a><span>&#47</span></li>
+                    <li><a href="javascript:;">故事动态</a><span>&#47</span></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li><a href="javascript:;"><span>&#47</span>法律条款</a></li>
+                </ul>
+                <p class="footer_contact">
+                    <span>咨询热线：400-000-0000</span>
+                    <a href="contact.html">联系我们</a>
+                </p>
+            </div>
+            <div class="footer_cut_line">
+                <i><img src="image/footerIcon1.png"></i>
+            </div>
+            <ul class="footer_slogan">   
+                <li>探索故事发展的方向</li>
+                <li>追寻配角需求的演化</li>
+                <li>发掘取之有道的boss</li>
+            </ul>
+            <div class="footer_copy_info_wrap"> 
+            <p class="footer_copy_info">
+                Copyright  ©2016 海贼王（上海）人物管理有限公司. All Rights Reserved   沪ICP备1000000号 
+            </p>
+            </div>
+            <div class="footer_icon">
+                <i><img src="image/footerIcon3.png"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+	<script type="text/javascript" src="js/index.min.js"></script>
+</body>
+</html>

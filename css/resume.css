@@ -1,0 +1,152 @@
+body {
+    background: #D9D9D9;
+    color: #444
+}
+.wrapper {
+    max-width: 700px;
+    margin-right:auto;
+    margin-left:auto;
+    background: #fff;
+   	margin-top: 60px;
+   	margin-bottom: 60px;
+   	padding: 60px;
+}
+.info_title {
+	border-left:40px solid #444;
+	padding-left: 20px;
+	margin-left: -60px;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+}
+.info_content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: stretch;
+	align-items: stretch;
+	margin-top: 20px;
+}
+.info_img {
+	width: 25%;
+	margin-right: 7%;
+	flex-shrink: none;
+}
+.info_img img {
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.detail_info h3{
+	margin-bottom: 0.3em;
+	font-size: 1.1em;
+}
+.detail_info p {
+	font-size: 0.9em;
+	margin-bottom: 0.3em;
+}
+.skill_title {
+	border-left:40px solid #444;
+	padding-left: 20px;
+	margin-left: -60px;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	margin-top: 50px
+}
+@media screen and (max-width: 720px) {
+    .info_img {
+		width: 8rem;
+		margin-right: 5%;
+	}
+}
+
+.skill_content {
+	width: 105%;
+
+}
+.skill_content li {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.skill_content li span {
+	display: block;
+	background: #444;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #fff;
+	font-size: 0.9rem;
+}
+.skill_content li span i {
+	display: block;
+	float: right;
+	color: #aaa;
+}
+.skill1 span {
+	width: 81%;
+
+}
+.skill2 span {
+	width: 66%;
+}
+.skill3 span {
+	width: 76%;
+}
+.skill4 span {
+	width: 76%;
+}
+.info_experience {
+	border-left:40px solid #444;
+	padding-left: 20px;
+	margin-left: -60px;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	margin-top: 50px
+}
+.experience div h4 {
+	font-size: 1rem;
+
+}
+.experience div {
+	line-height: 1.6;
+	margin-bottom: 0.4rem;
+}
+.experience span {
+	display: block;
+	font-size: 0.9rem;
+}
+.experience i {
+	display: block;
+	font-size: 0.9rem;
+}
+.experience p {
+	font-size: 0.9rem;
+	margin-bottom: 0.4rem;
+}
+.experience_item {
+	overflow: hidden;
+}
+.experience_item div {
+	width: 40%;
+	float: left;
+
+}
+.experience1 {
+	margin-bottom: 30px;
+}
+.demo_title {
+	border-left:40px solid #444;
+	padding-left: 20px;
+	margin-left: -60px;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	margin-top: 50px
+}
